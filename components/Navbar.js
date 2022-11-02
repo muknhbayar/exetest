@@ -12,18 +12,18 @@ export default function Navbar({ fixed }) {
   return (
     <>
       <nav
-        className="relative flex flex-wrap items-center justify-start py-3"
-        style={{ backgroundColor: "#0e1447" }}
+        className="relative flex flex-wrap items-center justify-start py-0"
+        style={{ backgroundColor: "#120ba4" }}
       >
-        <div className="container pl-8 mx-auto flex flex-wrap items-center justify-start ml-0">
+        <div className="container pl-6 mx-auto flex flex-wrap items-center justify-start ml-0">
           <div className="w-full relative flex justify-start lg:w-auto lg:static lg:block">
             <Link href="/">
-              <a className=" font-bold leading-relaxed inline-block py-2 whitespace-nowrap uppercase text-white">
+              <a className=" font-bold leading-relaxed inline-block pt-1 whitespace-nowrap uppercase text-white">
                 <div>
                   <img
-                    src="/assets/img/exe-logo.png"
+                    src="/assets/img/logo.png"
                     loading="lazy"
-                    className="w-28 px-2 transition duration-300 ease-linear align-middle"
+                    className="w-10 h-10 pt-1 px-0 transition duration-300 ease-linear align-middle"
                   />
                 </div>
               </a>
@@ -48,7 +48,7 @@ export default function Navbar({ fixed }) {
               <li className="nav-item">
                 <Link href="/">
                   <a className="px-2 py-2 flex items-center text-sm uppercase leading-snug text-white hover:text-sky-300">
-                    <span className="ml-2">ホーム</span>
+                    <span className="ml-2">НҮҮР ХУУДАС</span>
                   </a>
                 </Link>
               </li>
@@ -63,7 +63,7 @@ export default function Navbar({ fixed }) {
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
-                     エクセについて
+                     БИДНИЙ ТУХАЙ
                       <svg
                         aria-hidden="true"
                         focusable="false"
@@ -87,14 +87,35 @@ export default function Navbar({ fixed }) {
                       <li>
                         <Link href="/greetings">
                           <a className="dropdown-item px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
-                          社長メッセージ
+                          ЗАХИРЛЫН МЭНДЧИЛГЭЭ
                           </a>
                         </Link>
                       </li>
                       <li>
-                        <Link href="/corporate">
+                        <Link href="/history">
                           <a className="dropdown-item px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
-                          会社概要
+                          ТҮҮХЭН ТОВЧОО
+                          </a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/success">
+                          <a className="dropdown-item px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
+                          АМЖИЛТЫН БУУХИА
+                          </a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/directors">
+                          <a className="dropdown-item px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
+                          УДИРДЛАГЫН БАГ
+                          </a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/teachers">
+                          <a className="dropdown-item px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
+                          БАГШ НАР
                           </a>
                         </Link>
                       </li>
@@ -109,35 +130,35 @@ export default function Navbar({ fixed }) {
                 <Link href="/overseas">
                   <a className="px-2 py-2 flex items-center text-sm uppercase leading-snug text-white hover:text-sky-300">
                     {/* <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i> */}
-                    <span className="ml-2">海外プロジェクト</span>
+                    <span className="ml-2">СУРГАЛТЫН ХӨТӨЛБӨР</span>
                   </a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href="/domestic">
                   <a className="px-2 py-2 flex items-center text-sm uppercase leading-snug text-white hover:text-sky-300">
-                    <span className="ml-2">国内プロジェクト</span>
+                    <span className="ml-2">МЭДЭЭ</span>
                   </a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href="/intership">
                   <a className="px-2 py-2 flex items-center text-sm uppercase leading-snug text-white hover:text-sky-300">
-                    <span className="ml-2">インターンシップ</span>
+                    <span className="ml-2">ЭЛСЭЛТ</span>
                   </a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href="/recruit">
                   <a className="px-2 py-2 flex items-center text-sm uppercase leading-snug text-white hover:text-sky-300">
-                    <span className="ml-2">リクルート</span>
+                    <span className="ml-2">ЗУРАГ</span>
                   </a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href="/contact">
                   <a className="px-2 py-2 flex items-center text-sm uppercase leading-snug text-white hover:text-sky-300">
-                    <span className="ml-2">お問い合わせ</span>
+                    <span className="ml-2">ХОЛБОО БАРИХ</span>
                   </a>
                 </Link>
               </li>
@@ -154,7 +175,7 @@ export default function Navbar({ fixed }) {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                言語
+                ХЭЛ СОНГОХ
                 <svg
                   aria-hidden="true"
                   focusable="false"
@@ -183,7 +204,7 @@ export default function Navbar({ fixed }) {
                 <li>
                   <Link href="/">
                       <a className="dropdown-item px-2 md:px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
-                          日本語
+                          МОНГОЛ
                       </a>
                   </Link>
                 </li>

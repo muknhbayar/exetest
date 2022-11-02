@@ -29,7 +29,7 @@ const Slider = () => {
           />
         </div>
         {/* Inner */}
-        <div className="carousel-inner relative w-full overflow-hidden">
+        <div className="carousel-inner relative w-full overflow-hidden h-144">
           {/* Single item */}
           <div className="carousel-item active relative float-left w-full">
             <img
@@ -38,8 +38,8 @@ const Slider = () => {
               alt="Motorbike Smoke"
             />
             <div className="carousel-caption hidden md:block absolute text-left absolute ">
-              <h5 className="text-sm sm:text-2xl md:text-4xl xl:text-5xl md:mb-0 md:pb-4 md:max-w-3xl text-white font-bold">
-                すべてのマーケットには、最 高の投資機会があります。
+              <h5 className="text-sm sm:text-2xl md:text-3xl xl:text-4xl md:mb-0 md:pb-4 md:max-w-3xl text-white font-bold">
+              ЧАНАРЫГ ЭРХЭМЛЭН БҮТЭЭГЧ МОНГОЛ ИРГЭНИЙГ ТӨЛӨВШҮҮЛНЭ.
               </h5>
               <p className="text-sm md:text-xl md:mb-24 sm:pb-8 md:pb-96"></p>
             </div>
@@ -52,8 +52,8 @@ const Slider = () => {
               alt="Mountaintop"
             />
             <div className="carousel-caption hidden md:block absolute text-left ">
-              <h5 className="text-sm sm:text-2xl md:text-4xl xl:text-5xl md:mb-0 md:pb-4 md:max-w-3xl text-white font-bold">
-                すべてのマーケットには、最 高の投資機会があります。
+              <h5 className="text-sm sm:text-2xl md:text-3xl xl:text-4xl md:mb-0 md:pb-4 md:max-w-3xl text-white font-bold uppercase">
+              Боловсролын чанарын үнэлгээгээр Монгол улсын шилдэг 15 сургуулийн нэг
               </h5>
               <p className="text-sm md:text-xl md:mb-24 sm:pb-8 md:pb-96"></p>
             </div>
@@ -66,8 +66,8 @@ const Slider = () => {
               alt="Woman Reading a Book"
             />
             <div className="carousel-caption hidden md:block absolute text-left">
-              <h5 className="text-sm sm:text-2xl md:text-4xl xl:text-5xl md:mb-0 md:pb-4 md:max-w-3xl text-white font-bold">
-                すべてのマーケットには、最 高の投資機会があります。
+              <h5 className="text-sm sm:text-2xl md:text-3xl xl:text-4xl md:mb-0 md:pb-4 md:max-w-3xl text-white font-bold uppercase">
+              2800 гаруй квадрат талбайтай өөрийн байрандаа 40 гаруй анги, танхимуудтай.
               </h5>
               <p className="text-sm md:text-xl md:mb-24 sm:pb-8 md:pb-96"></p>
             </div>

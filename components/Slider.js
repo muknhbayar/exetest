@@ -33,12 +33,12 @@ const Slider = () => {
           {/* Single item */}
           <div className="carousel-item active relative float-left w-full">
             <img
-              src="/assets/img/mv.jpg"
+              src="/assets/img/olonlogexe.mp4"
               className="block w-full"
-              alt="Motorbike Smoke"
+              alt="olonlog exe"
             />
-            <div className="carousel-caption hidden md:block absolute text-left absolute ">
-              <h5 className="text-sm sm:text-2xl md:text-3xl xl:text-4xl md:mb-0 md:pb-4 md:max-w-3xl text-white font-bold">
+            <div className="carousel-caption hidden md:block absolute text-left absolute  drop-shadow-xl shadow-black ">
+              <h5 className="text-sm sm:text-2xl md:text-3xl xl:text-4xl md:mb-0 md:pb-4 md:max-w-3xl text-white font-bold ">
               ЧАНАРЫГ ЭРХЭМЛЭН БҮТЭЭГЧ МОНГОЛ ИРГЭНИЙГ ТӨЛӨВШҮҮЛНЭ.
               </h5>
               <p className="text-sm md:text-xl md:mb-24 sm:pb-8 md:pb-96"></p>
@@ -61,14 +61,14 @@ const Slider = () => {
           {/* Single item */}
           <div className="carousel-item relative float-left w-full">
             <img
-              src="/assets/img/mv3.jpg"
+              src="/assets/img/olonlogexe.jpg"
               className="block w-full"
               alt="Woman Reading a Book"
             />
             <div className="carousel-caption hidden md:block absolute text-left">
-              <h5 className="text-sm sm:text-2xl md:text-3xl xl:text-4xl md:mb-0 md:pb-4 md:max-w-3xl text-white font-bold uppercase">
+              {/* <h5 className="text-sm sm:text-2xl md:text-3xl xl:text-4xl md:mb-0 md:pb-4 md:max-w-3xl text-white font-bold uppercase">
               2800 гаруй квадрат талбайтай өөрийн байрандаа 40 гаруй анги, танхимуудтай.
-              </h5>
+              </h5> */}
               <p className="text-sm md:text-xl md:mb-24 sm:pb-8 md:pb-96"></p>
             </div>
           </div>

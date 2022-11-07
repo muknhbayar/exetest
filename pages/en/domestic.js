@@ -1,6 +1,5 @@
 import React from "react";
 import Aboutexe from "../../components/en/Aboutexe";
-import Announcements from "../../components/en/Announcements";
 import Domesticprojects from "../../components/en/Domesticprojects";
 import Sharedhouse from "../../components/en/Sharedhouse";
 import MainLayoutEn from '../../layout/MainLayoutEn';

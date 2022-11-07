@@ -127,7 +127,7 @@ export default function Navbar({ fixed }) {
               {/* dropdown */}
 
               <li className="nav-item">
-                <Link href="/overseas">
+                <Link href="/trainingprogram">
                   <a className="px-2 py-2 flex items-center text-md uppercase leading-snug text-white hover:text-sky-300">
                     {/* <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i> */}
                     <span className="ml-2">СУРГАЛТЫН ХӨТӨЛБӨР</span>
@@ -135,23 +135,23 @@ export default function Navbar({ fixed }) {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/domestic">
+                <Link href="/news">
                   <a className="px-2 py-2 flex items-center text-md uppercase leading-snug text-white hover:text-sky-300">
                     <span className="ml-2">МЭДЭЭ</span>
                   </a>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/intership">
+                <Link href="/admission">
                   <a className="px-2 py-2 flex items-center text-md uppercase leading-snug text-white hover:text-sky-300">
                     <span className="ml-2">ЭЛСЭЛТ</span>
                   </a>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/recruit">
+                <Link href="/gallery">
                   <a className="px-2 py-2 flex items-center text-md uppercase leading-snug text-white hover:text-sky-300">
-                    <span className="ml-2">ЗУРАГ</span>
+                    <span className="ml-2">ЗУРГИЙН ЦОМОГ</span>
                   </a>
                 </Link>
               </li>
@@ -166,7 +166,7 @@ export default function Navbar({ fixed }) {
           </div>
 
  {/* Language */}
-          <div className="flex flex-grow justify-center items-center">
+          {/* <div className="flex flex-grow justify-center items-center">
             <div className="dropdown relative -mt-12 lg:mt-2">
               <button
                 className="dropdown-toggle text-left py-2 flex text-md uppercase leading-snug text-white hover:text-sky-300"
@@ -215,7 +215,7 @@ export default function Navbar({ fixed }) {
                       </a>
                   </Link>
                 </li>
-                {/* {router.locales.map((l) => (
+                {router.locales.map((l) => (
                   <li key={l}>
                     <Link href={router.asPath} locale={l}>
                       <a className="dropdown-item px-2 md:px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
@@ -223,10 +223,10 @@ export default function Navbar({ fixed }) {
                       </a>
                     </Link>
                   </li>
-                ))} */}
+                ))}
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
         {/* Language */}           
       </nav>

@@ -1,15 +1,17 @@
 import react from "react";
 import Aboutexe from "../components/Aboutexe";
-import Announcements from "../components/Announcements";
 import Carousel from "../components/Carousel";
+import Counter from "../components/Counter";
 import Domesticprojects from "../components/Domesticprojects";
+import Environment from "../components/Environment";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Overseasprojects from "../components/Overseasprojects";
+import Post from "../components/Post";
 import Projects from "../components/Projects";
-import Recruitment from "../components/Recruitment";
 import Sharedhouse from "../components/Sharedhouse";
 import Slider from "../components/Slider";
+import Testimonials from "../components/Testimonials";
 import Trainingprograms from "../components/Trainingprograms";
 
 //Layout-ийг дуудаж байгаа хэсэг
@@ -24,13 +26,14 @@ export default function Home() {
     <MainLayout>
       <Carousel/>
       <Trainingprograms/>
+      
     <Aboutexe/>
-    <Recruitment/>
-    <Overseasprojects/>
-    <Projects/>
-    <Domesticprojects/>
-    <Sharedhouse/>
-    <Announcements/>
+    <Post/>
+    <Counter/>
+    <Testimonials/>
+
+    <Environment/>
+   
     
 
 

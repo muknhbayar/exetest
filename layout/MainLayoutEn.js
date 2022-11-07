@@ -1,5 +1,4 @@
 import Aboutexe from "../components/en/Aboutexe";
-import Announcements from "../components/en/Announcements";
 import Domesticprojects from "../components/en/Domesticprojects";
 import Footer from "../components/en/Footer";
 import Navbar from "../components/en/Navbar";

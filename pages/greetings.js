@@ -5,73 +5,79 @@ import LazyLoad from "react-lazy-load";
 const greetings = () => {
   return (
     <MainLayout>
-      <div
-        className="top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden text-center relative overflow-hidden bg-no-repeat bg-cover"
-        style={{
-          backgroundImage: 'url("/assets/img/mv-sm.jpg")',
-          backgroundColor: "rgba(0, 0, 0, 0)",
-          height: 450,
-        }}
-      >
-        <div className="flex justify-center items-center h-full">
-          <div>
-            <h2 className="font-bold text-3xl font-sans text-white uppercase">
-              社長メッセージ
-            </h2>
+      
+
+   <div classname="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 mx-auto bg-white max-w-7xl md:py-16">
+ 
+  <div className="container my-24 px-6 mx-auto">
+    <section className="mb-32 text-gray-800 text-center lg:text-left">
+      <style dangerouslySetInnerHTML={{__html: "\n      @media (min-width: 992px) {\n        .rotate-lg-6 {\n          transform: rotate(6deg);\n        }\n      }\n    " }} />
+      <div className="md:px-6 py-12 md:px-12">
+        <div className="container mx-auto xl:px-32">
+          <div className="grid lg:grid-cols-2 flex items-center">
+            <div className="md:mt-12 lg:mt-0 mb-12 lg:mb-0">
+              <div className="relative block rounded-lg shadow-lg px-6 py-12 md:px-12 lg:-mr-14" style={{background: 'hsla(0, 0%, 100%, 0.55)', backdropFilter: 'blur(30px)', zIndex: 1}}>
+                <h2 className="text-3xl font-bold mb-2 text-blue-600">Anna Doe</h2>
+                <p className="font-semibold mb-4">Graphic designer</p>
+                <p className="text-gray-500 mb-6">
+                  Nunc tincidunt vulputate elit. Mauris varius purus malesuada neque iaculis
+                  malesuada. Aenean gravida magna orci, non efficitur est porta id. Donec magna
+                  diam.
+                </p>
+                <p className="text-gray-500 mb-6">
+                  Ad, at blanditiis quaerat laborum officia incidunt cupiditate dignissimos
+                  voluptates eius aliquid minus praesentium! Perferendis et totam ipsum ex aut earum
+                  libero accusamus voluptas quod numquam saepe, consequuntur nihil quia tenetur
+                  consequatur. Quis, explicabo deserunt quasi assumenda ea maiores nulla, et dolor
+                  saepe praesentium natus error reiciendis voluptas iste. Esse, laudantium ipsum
+                  animi, quos voluptatibus atque vero repellat sit eligendi autem maiores quasi cum
+                  aperiam. Aperiam rerum culpa accusantium, ducimus deserunt aliquid alias vitae
+                  quasi corporis placeat vel maiores explicabo commodi!
+                </p>
+                <ul className="flex justify-center md:justify-start">
+                  <li>
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" className="w-4 text-blue-600" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                      <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                      </path>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" className="w-4 text-blue-600" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                      <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                      </path>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" className="w-4 text-blue-600" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                      <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                      </path>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" className="w-4 text-blue-600" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                      <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                      </path>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" className="w-4 text-blue-600" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                      <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                      </path>
+                    </svg>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="md:mb-12 lg:mb-0">
+              <img src="https://mdbootstrap.com/img/new/ecommerce/vertical/080.jpg" className="w-full rounded-lg shadow-lg rotate-lg-6" alt />
+            </div>
           </div>
         </div>
       </div>
+    </section>
+  </div>
+</div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 mx-auto bg-white max-w-7xl md:py-16">
-        <div className="w-full p-4 md:mx-auto md:ml-4 md:w-72 xl:w-full ">
-          <img src="/assets/img/1657970132.jpg" loading="lazy" />
-        </div>
-
-        <div className="w-full p-4 md:col-span-2 md:px-16 lg:col-span-3 ">
-          <p className="font-sans font-light leading-7 mt-4 ">
-            私ども、株式会社エクセは1991年8月6日に生まれました。
-            <br />
-            それから20年、20世紀の最後の10年と21世紀の最初の10年の激動の中をブティックの投資事業会社として、時代の流れとともに前へ前へと進んでまいりました。
-          </p>
-
-          <h2 className="font-serif text-2xl font-bold py-4">
-            <em>変化こそチャンスである</em>
-          </h2>
-          <p className="font-sans font-light leading-7 mt-4 ">
-            当社が常に掲げてきた信念は、「変化こそチャンスである」ということです。
-            <br />
-            時代の変化にたじろぐことなく、不安定化をむしろビジネスチャンスと捉えていくのが当社のスピリットです。
-            <br />
-            そして投資にあたっては、真に社会が必要としているものは何なのかを見据え、世の中の大勢がなびく「今」に乗るのではなく、時代の「これから」を見つけ出してそこに投資をし、事業を起こし、更に育てていくことを基本的な方針としております
-            <br />
-            <br />
-            この信念が結実したものが、ここでご紹介する国内及びアジアを中心とするプロジェクトです。当社は、ミャンマー、モンゴル、イスラエルなどで数多くのプロジェクトを完成・運営し、雇用を通じてこれらの国々のお手伝いをさせていただいております。
-            <br />
-          </p>
-
-          <h2 className="font-serif text-2xl font-bold py-4">
-            <em> 「人材へのこだわり」 </em>
-          </h2>
-
-          <p className="font-sans font-light leading-7 mt-4 ">
-            投資に関する信念は、「人」に対する信念にもつながります。
-            <br />
-            当社は人材への投資こそ最高の投資であると考えて、「自ら変化を求める人材」、「人と同じではなく自分なりの価値観を持っている人材」を常に求めております。
-            <br />{" "}
-            安定した人生を求めるより、当社をステップに将来は独立して経営者を目指そうとするような人材を歓迎いたします。
-            <br />
-            やる気のある若者を支援するために、当社は海外インターンシップを含めた実践研修の場も提供しております。{" "}
-            <br />
-            <br />
-            ユニークな投資事業会社として常に前進を続ける当社のことを是非知っていただき、応援していただきますようお願いいたします。
-            <br />
-            <br />
-            2017年9月吉日
-            <br />
-            代表取締役社長　谷　均
-          </p>
-        </div>
-      </div>
     </MainLayout>
   );
 };

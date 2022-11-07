@@ -12,7 +12,7 @@ const Post = () => {
         <div className="flex justify-center"> <hr className="border-b border-1 border-gray-300 w-32 mt-2" /></div>
     <div className="grid lg:grid-cols-3 gap-6 mt-6">
       <div className="relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg" style={{backgroundPosition: '50%'}} data-mdb-ripple="true" data-mdb-ripple-color="light">
-        <Image src="/assets/img/news/news01.jpg" className=" h-full" />
+        <Image src="/assets/img/news/news01.jpg" className=" h-full" alt="news01" />
         <a href="#!">
           <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed" style={{backgroundColor: 'rgba(0, 0, 0, 0.15)'}}>
             <div className="flex justify-start items-end h-full">
@@ -20,7 +20,7 @@ const Post = () => {
               <p className="text-right">
                   <small>2022-10-27</small> 
                 </p>
-                <h5 className="font-normal text-md mb-1 uppercase story-title h-6 hover:mb-6 ">Мэдээллийн технологийн мэргэжлээр АНУ-д сурч, ажиллаж, амьдрах боломж сэдвээр ярилцлаа амьдрах боломж сэдвээр ярилцлаа.</h5>
+                <h5 className="font-normal text-md mb-1 uppercase story-title h-6 hover:mb-6">Мэдээллийн технологийн мэргэжлээр АНУ-д сурч, ажиллаж, амьдрах боломж сэдвээр ярилцлаа амьдрах боломж сэдвээр ярилцлаа.</h5>
              
               </div>
             </div>
@@ -28,7 +28,7 @@ const Post = () => {
         </a>
       </div>
       <div className="relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg" data-mdb-ripple="true" data-mdb-ripple-color="light">
-        <Image src="https://mdbootstrap.com/img/new/standard/nature/044.jpg" className="w-full" />
+        <Image src="https://mdbootstrap.com/img/new/standard/nature/044.jpg" className="w-full" alt="news01"/>
         <a href="#!">
           <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed" style={{backgroundColor: 'rgba(0, 0, 0, 0.15)'}}>
             <div className="flex justify-start items-end h-full">
@@ -36,7 +36,7 @@ const Post = () => {
               <p className="text-right">
                   <small>2022-11-06</small> 
                 </p>
-                <h5 className="font-normal text-md mb-1 uppercase story-title h-6 hover:mb-6 ">НАЙДАНГИЙН НАМЖИЛ багшийн нэрэмжит "Өсвөрийн шатарчдын тэмцээн"-д  1б ангийн сурагчид амжилттай оролцож, сурагч Эркин мөнгөн медаль, сурагч Мөнхтулга хүрэл медаль тус тус авсан байна.</h5>
+                <h5 className="font-normal text-md mb-1 uppercase story-title h-6 hover:mb-6 ">НАЙДАНГИЙН НАМЖИЛ багшийн нэрэмжит Өсвөрийн шатарчдын тэмцээнд  1б ангийн сурагчид амжилттай оролцож, сурагч Эркин мөнгөн медаль, сурагч Мөнхтулга хүрэл медаль тус тус авсан байна.</h5>
              
               </div>
             </div>
@@ -44,7 +44,7 @@ const Post = () => {
         </a>
       </div>
       <div className="relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg" data-mdb-ripple="true" data-mdb-ripple-color="light">
-        <Image src="https://mdbootstrap.com/img/new/standard/nature/045.jpg" className="w-full" />
+        <Image src="https://mdbootstrap.com/img/new/standard/nature/045.jpg" className="w-full" alt="news01"/>
         <a href="#!">
           <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed" style={{backgroundColor: 'rgba(0, 0, 0, 0.15)'}}>
             <div className="flex justify-start items-end h-full">
@@ -60,7 +60,7 @@ const Post = () => {
         </a>
       </div>
       <div className="relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg" data-mdb-ripple="true" data-mdb-ripple-color="light">
-        <Image src="https://mdbootstrap.com/img/new/standard/nature/047.jpg" className="w-full" />
+        <Image src="https://mdbootstrap.com/img/new/standard/nature/047.jpg" className="w-full" alt="news01"/>
         <a href="#!">
           <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed" style={{backgroundColor: 'rgba(0, 0, 0, 0.15)'}}>
             <div className="flex justify-start items-end h-full">
@@ -68,7 +68,7 @@ const Post = () => {
               <p className="text-right">
                   <small>2022-10-10</small> 
                 </p>
-                <h5 className="font-normal text-md mb-1 uppercase story-title h-6 hover:mb-6 ">ОЛОН УЛСЫН ЗАЛУУ РОБОТ БҮТЭЭГЧДИЙН  ТЭМЦЭЭН-д  4б ангийн сурагч Б.Тэмүүлэн  амжилттай оролцон, "АЛТАН МЕДАЛЬ"-ийн эзэн боллоо. </h5>
+                <h5 className="font-normal text-md mb-1 uppercase story-title h-6 hover:mb-6 ">ОЛОН УЛСЫН ЗАЛУУ РОБОТ БҮТЭЭГЧДИЙН  ТЭМЦЭЭН-д  4б ангийн сурагч Б.Тэмүүлэн  амжилттай оролцон, АЛТАН МЕДАЛийн эзэн боллоо. </h5>
              
               </div>
             </div>
@@ -76,7 +76,7 @@ const Post = () => {
         </a>
       </div>
       <div className="relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg" data-mdb-ripple="true" data-mdb-ripple-color="light">
-        <Image src="https://mdbootstrap.com/img/new/standard/nature/028.jpg" className="w-full" />
+        <Image src="https://mdbootstrap.com/img/new/standard/nature/028.jpg" className="w-full" alt="news01" />
         <a href="#!">
           <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed" style={{backgroundColor: 'rgba(0, 0, 0, 0.15)'}}>
             <div className="flex justify-start items-end h-full">
@@ -92,7 +92,7 @@ const Post = () => {
         </a>
       </div>
       <div className="relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg" data-mdb-ripple="true" data-mdb-ripple-color="light">
-        <Image src="https://mdbootstrap.com/img/new/standard/nature/049.jpg" className="w-full" />
+        <Image src="https://mdbootstrap.com/img/new/standard/nature/049.jpg" className="w-full" alt="news01"/>
         <a href="#!">
           <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed" style={{backgroundColor: 'rgba(0, 0, 0, 0.15)'}}>
             <div className="flex justify-start items-end h-full">

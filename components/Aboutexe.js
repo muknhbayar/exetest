@@ -12,6 +12,7 @@ const Aboutexe = () => {
             src="/assets/img/banner.png"
             className="w-full transition duration-300 ease-linear align-middle ml-4 "
             loading="lazy"
+            alt="banner"
           />
         </div>
 

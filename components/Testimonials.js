@@ -21,7 +21,7 @@ const Testimonials = () => {
                                                 <div className="flex flex-wrap justify-center">
                                                 <div className="grow-0 shrink-0 basis-auto w-full lg:w-8/12 px-3 text-white p-8 rounded-2xl" style={{ backgroundColor: "rgba(23, 45, 208, 0.4)" }}>
                                                     <h5 className="text-2xl font-bold mb-1">Дамдинсүрэнгийн БУЯНЖАРГАЛ</h5>
-                                                    <p className="font-bold mb-2 text-xl text-cyan-400">"GIRLS CODE" Үндэсний хөтөлбөрийн ГРАНПРИ шагналт төгсөгч</p>
+                                                    <p className="font-bold mb-2 text-xl text-cyan-400">GIRLS CODE Үндэсний хөтөлбөрийн ГРАНПРИ шагналт төгсөгч</p>
                                                     <p className="mb-4 text-xl">
                                                     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="quote-left" className="w-6 pr-2 inline-block" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                                         <path fill="currentColor" d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
@@ -68,7 +68,7 @@ const Testimonials = () => {
                                                 <div className="flex flex-wrap justify-center">
                                                 <div className="grow-0 shrink-0 basis-auto w-full lg:w-8/12 px-3 text-white p-8 rounded-2xl" style={{ backgroundColor: "rgba(23, 45, 208, 0.4)" }}>
                                                     <h5 className="text-2xl font-bold mb-1">Ганболдын ОТГОНБААТАР</h5>
-                                                    <p className="font-bold mb-2 text-xl text-orange-300">"Харуул занги-2020" Ёсзүйт хакерын улсын аварга NICE COMMIT багийн ахлагч</p>
+                                                    <p className="font-bold mb-2 text-xl text-orange-300">Харуул занги-2020 Ёсзүйт хакерын улсын аварга NICE COMMIT багийн ахлагч</p>
                                                     <p className="mb-4 text-xl">
                                                     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="quote-left" className="w-6 pr-2 inline-block" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                                         <path fill="currentColor" d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">

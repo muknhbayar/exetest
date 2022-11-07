@@ -3,6 +3,7 @@ import Link from "next/link";
 import LazyLoad from "react-lazy-load";
 import useTranslation from "next-translate/useTranslation";
 import { useRouter } from "next/router";
+import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Navbar({ fixed }) {
@@ -20,7 +21,7 @@ export default function Navbar({ fixed }) {
             <Link href="/">
               <a className=" font-bold leading-relaxed inline-block pt-1 whitespace-nowrap uppercase text-white">
                 <div>
-                  <img
+                  <Image
                     src="/assets/img/logo.png"
                     loading="lazy"
                     className="w-10 h-10 pt-2 px-0 mb-2 transition duration-300 ease-linear align-middle"

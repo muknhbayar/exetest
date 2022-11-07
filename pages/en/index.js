@@ -16,10 +16,7 @@ export default function Home() {
     <MainLayoutEn>
     <Slider/>
     <Aboutexe/>
-    <Overseasprojects/>
-    <Projects/>
-    <Domesticprojects/>
-    <Sharedhouse/>
+   
     
 
 

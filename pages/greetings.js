@@ -1,5 +1,6 @@
 import React from "react";
 import MainLayout from "../layout/MainLayout";
+import Image from "next/image";
 import LazyLoad from "react-lazy-load";
 
 const greetings = () => {
@@ -14,7 +15,7 @@ const greetings = () => {
               <div className="container mx-auto xl:px-32">
                 <div className="grid lg:grid-cols-3 flex gap-4">
                   <div className="">
-                    <img
+                    <Image
                       src="/assets/img/enkhbayar.jpg"
                       className="w-96 rounded-2xl shadow-lg-6"
                       alt

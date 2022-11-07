@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Aboutexe = () => {
   return (
@@ -7,7 +8,7 @@ const Aboutexe = () => {
       <div className="grid grid-cols-1 md:grid-cols-2">
 
       <div>
-          <img
+          <Image
             src="/assets/img/banner.png"
             className="w-full transition duration-300 ease-linear align-middle ml-4 "
             loading="lazy"

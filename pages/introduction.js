@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const introduction = () => {
   return (
@@ -14,19 +15,19 @@ const introduction = () => {
             </p>
           </div>
           <div className="grid gap-4 col-start-1 col-end-3 row-start-1 sm:mb-6 sm:grid-cols-4 lg:gap-6 lg:col-start-2 lg:row-end-6 lg:row-span-6 lg:mb-0">
-            <img
+            <Image
               src="/beach-house.jpg"
               alt
               className="w-full h-60 object-cover rounded-lg sm:h-52 sm:col-span-2 lg:col-span-full"
               loading="lazy"
             />
-            <img
+            <Image
               src="/beach-house-interior-1.jpg"
               alt
               className="hidden w-full h-52 object-cover rounded-lg sm:block sm:col-span-2 md:col-span-1 lg:row-start-2 lg:col-span-2 lg:h-32"
               loading="lazy"
             />
-            <img
+            <Image
               src="/beach-house-interior-2.jpg"
               alt
               className="hidden w-full h-52 object-cover rounded-lg md:block lg:row-start-2 lg:col-span-2 lg:h-32"

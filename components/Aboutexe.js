@@ -15,7 +15,7 @@ const Aboutexe = () => {
             alt="banner"
             width={600}
             height={360}
-            layout="fixed" 
+            layout="responsive" 
           />
         </div>
 

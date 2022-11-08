@@ -4,6 +4,7 @@ import LazyLoad from "react-lazy-load";
 import useTranslation from "next-translate/useTranslation";
 import { useRouter } from "next/router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "next/image";
 
 export default function Navbar({ fixed }) {
   let { t } = useTranslation();
@@ -19,13 +20,13 @@ export default function Navbar({ fixed }) {
           <div className="w-full relative flex justify-start lg:w-auto lg:static lg:block">
             <Link href="/en">
               <a className=" font-bold leading-relaxed inline-block py-2 whitespace-nowrap uppercase text-white">
-                <div>
-                  <img
+                {/* <div>
+                  <Image
                     src="/assets/img/exe-logo.png"
                     loading="lazy"
-                    className="w-28 px-2 transition duration-300 ease-linear align-middle"
+                    alt="olonlogexe"
                   />
-                </div>
+                </div> */}
               </a>
             </Link>
 
@@ -183,7 +184,7 @@ export default function Navbar({ fixed }) {
                 <li>
                   <Link href="/">
                       <a className="dropdown-item px-2 md:px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
-                          日本語
+                          МОНГОЛ
                       </a>
                   </Link>
                 </li>

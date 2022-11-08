@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Slider = () => {
   return (
@@ -32,10 +33,14 @@ const Slider = () => {
         <div className="carousel-inner relative w-full overflow-hidden h-144">
           {/* Single item */}
           <div className="carousel-item active relative float-left w-full">
-            <img
+            <Image
               src="/assets/img/olonlogexe.mp4"
               className="block w-full"
               alt="olonlog exe"
+              width={36}
+              height={36}
+              layout="fixed" 
+
             />
             <div className="carousel-caption hidden md:block absolute text-left absolute  drop-shadow-xl shadow-black ">
               <h5 className="text-sm sm:text-2xl md:text-3xl xl:text-4xl md:mb-0 md:pb-4 md:max-w-3xl text-white font-bold ">
@@ -46,10 +51,13 @@ const Slider = () => {
           </div>
           {/* Single item */}
           <div className="carousel-item relative float-left w-full">
-            <img
+            <Image
               src="/assets/img/mv2.jpg"
               className="block w-full"
               alt="Mountaintop"
+              width={36}
+              height={36}
+              layout="fixed" 
             />
             <div className="carousel-caption hidden md:block absolute text-left ">
               <h5 className="text-sm sm:text-2xl md:text-3xl xl:text-4xl md:mb-0 md:pb-4 md:max-w-3xl text-white font-bold uppercase">
@@ -60,10 +68,13 @@ const Slider = () => {
           </div>
           {/* Single item */}
           <div className="carousel-item relative float-left w-full">
-            <img
+            <Image
               src="/assets/img/olonlogexe.jpg"
               className="block w-full"
               alt="Woman Reading a Book"
+              width={36}
+              height={36}
+              layout="fixed" 
             />
             <div className="carousel-caption hidden md:block absolute text-left">
               {/* <h5 className="text-sm sm:text-2xl md:text-3xl xl:text-4xl md:mb-0 md:pb-4 md:max-w-3xl text-white font-bold uppercase">

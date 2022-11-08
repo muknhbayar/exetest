@@ -12,7 +12,7 @@ const Post = () => {
         <div className="flex justify-center"> <hr className="border-b border-1 border-gray-300 w-32 mt-2" /></div>
     <div className="grid lg:grid-cols-3 gap-6 mt-6">
       <div className="relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg" style={{backgroundPosition: '50%'}} data-mdb-ripple="true" data-mdb-ripple-color="light">
-        <Image src="/assets/img/news/news01.jpg" className=" h-full" alt="news01" />
+        <Image src="/assets/img/news/news01.jpg" alt="news01" width={400} height={260} layout="responsive" />
         <a href="#!">
           <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed" style={{backgroundColor: 'rgba(0, 0, 0, 0.15)'}}>
             <div className="flex justify-start items-end h-full">
@@ -28,7 +28,7 @@ const Post = () => {
         </a>
       </div>
       <div className="relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg" data-mdb-ripple="true" data-mdb-ripple-color="light">
-        <Image src="https://mdbootstrap.com/img/new/standard/nature/044.jpg" className="w-full" alt="news01"/>
+        <Image src="/assets/img/news/news01.jpg" className="w-full" alt="news01" width={400} height={260} layout="fixed" />
         <a href="#!">
           <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed" style={{backgroundColor: 'rgba(0, 0, 0, 0.15)'}}>
             <div className="flex justify-start items-end h-full">
@@ -44,7 +44,7 @@ const Post = () => {
         </a>
       </div>
       <div className="relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg" data-mdb-ripple="true" data-mdb-ripple-color="light">
-        <Image src="https://mdbootstrap.com/img/new/standard/nature/045.jpg" className="w-full" alt="news01"/>
+        <Image src="/assets/img/news/news01.jpg" className="w-full" alt="news01" width={400} height={260} layout="fixed" />
         <a href="#!">
           <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed" style={{backgroundColor: 'rgba(0, 0, 0, 0.15)'}}>
             <div className="flex justify-start items-end h-full">
@@ -60,7 +60,7 @@ const Post = () => {
         </a>
       </div>
       <div className="relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg" data-mdb-ripple="true" data-mdb-ripple-color="light">
-        <Image src="https://mdbootstrap.com/img/new/standard/nature/047.jpg" className="w-full" alt="news01"/>
+        <Image src="/assets/img/news/news01.jpg" className="w-full" alt="news01" width={400} height={260} layout="fixed" />
         <a href="#!">
           <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed" style={{backgroundColor: 'rgba(0, 0, 0, 0.15)'}}>
             <div className="flex justify-start items-end h-full">
@@ -76,7 +76,7 @@ const Post = () => {
         </a>
       </div>
       <div className="relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg" data-mdb-ripple="true" data-mdb-ripple-color="light">
-        <Image src="https://mdbootstrap.com/img/new/standard/nature/028.jpg" className="w-full" alt="news01" />
+        <Image src="/assets/img/news/news01.jpg" className="w-full" alt="news01" width={400} height={260} layout="fixed"  />
         <a href="#!">
           <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed" style={{backgroundColor: 'rgba(0, 0, 0, 0.15)'}}>
             <div className="flex justify-start items-end h-full">
@@ -92,7 +92,7 @@ const Post = () => {
         </a>
       </div>
       <div className="relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg" data-mdb-ripple="true" data-mdb-ripple-color="light">
-        <Image src="https://mdbootstrap.com/img/new/standard/nature/049.jpg" className="w-full" alt="news01"/>
+        <Image src="/assets/img/news/news01.jpg" className="w-full" alt="news01" width={400} height={260} layout="fixed" />
         <a href="#!">
           <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed" style={{backgroundColor: 'rgba(0, 0, 0, 0.15)'}}>
             <div className="flex justify-start items-end h-full">

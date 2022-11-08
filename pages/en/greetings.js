@@ -20,7 +20,7 @@ const greetings = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 mx-auto bg-white max-w-7xl md:py-16">
         
       <div className="w-full p-4 md:mx-auto md:ml-4 md:w-72 xl:w-full ">
-        <Image src="/assets/img/1657970132.jpg" loading="lazy" alt="kjlk;"/>
+        <Image src="/assets/img/1657970132.jpg" loading="lazy" alt="kjlk;"  width={36} height={36} layout="fixed"/>
       </div>
 
       <div className="w-full p-4 md:col-span-2 md:px-16 lg:col-span-3 ">

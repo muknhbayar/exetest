@@ -18,7 +18,10 @@ const greetings = () => {
                     <Image
                       src="/assets/img/enkhbayar.jpg"
                       className="w-96 rounded-2xl shadow-lg-6"
-                      alt
+                      alt="director b.enkhbayar"
+                      width={300}
+                      height={340}
+                      layout="fixed" 
                     />
                     <h2 className="text-2xl font-bold mt-6 text-blue-600 text-center">
                       Б.ЭНХБАЯР

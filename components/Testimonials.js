@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import LazyLoad from "react-lazy-load";
+import Image from "next/image";
 
 const Testimonials = () => {
   return (
@@ -17,7 +18,7 @@ const Testimonials = () => {
                                 <div id="carouselExampleCaptions" className="carousel slide relative carousel-light " data-bs-ride="carousel">
                                             <div className="carousel-inner relative w-full overflow-hidden">
                                             <div className="carousel-item active relative float-left w-full pt-16">
-                                                <img className="rounded-full shadow-xl mb-4 mx-auto" src="/assets/img/buyanjargal.jpg" alt="avatar" style={{width: 130}} />
+                                                <Image className="rounded-full shadow-xl mb-4 mx-auto" src="/assets/img/buyanjargal.jpg" alt="avatar" width={130} height={130} layout="fixed" />
                                                 <div className="flex flex-wrap justify-center">
                                                 <div className="grow-0 shrink-0 basis-auto w-full lg:w-8/12 px-3 text-white p-8 rounded-2xl" style={{ backgroundColor: "rgba(23, 45, 208, 0.4)" }}>
                                                     <h5 className="text-2xl font-bold mb-1">Дамдинсүрэнгийн БУЯНЖАРГАЛ</h5>
@@ -64,7 +65,7 @@ const Testimonials = () => {
                                                 </div>
                                             </div>
                                             <div className="carousel-item relative float-left w-full pt-16">
-                                                <img className="rounded-full shadow-xl mb-4 mx-auto" src="/assets/img/otgonbaatar.jpg" alt="avatar" style={{width: 130}} />
+                                                <Image className="rounded-full shadow-xl mb-4 mx-auto" src="/assets/img/otgonbaatar.jpg" alt="avatar" width={130} height={130} layout="fixed" />
                                                 <div className="flex flex-wrap justify-center">
                                                 <div className="grow-0 shrink-0 basis-auto w-full lg:w-8/12 px-3 text-white p-8 rounded-2xl" style={{ backgroundColor: "rgba(23, 45, 208, 0.4)" }}>
                                                     <h5 className="text-2xl font-bold mb-1">Ганболдын ОТГОНБААТАР</h5>
@@ -111,7 +112,7 @@ const Testimonials = () => {
                                                 </div>
                                             </div>
                                             <div className="carousel-item relative float-left w-full pt-16">
-                                                <img className="rounded-full shadow-xl mb-4 mx-auto" src="/assets/img/khaliun.jpg" alt="avatar" style={{width: 130}} />
+                                                <Image className="rounded-full shadow-xl mb-4 mx-auto" src="/assets/img/khaliun.jpg" alt="avatar" width={130} height={130} layout="fixed" />
                                                 <div className="flex flex-wrap justify-center">
                                                 <div className="grow-0 shrink-0 basis-auto w-full lg:w-8/12 px-3 text-white p-8 rounded-2xl" style={{ backgroundColor: "rgba(23, 45, 208, 0.4)" }}>
                                                     <h5 className="text-2xl font-bold mb-1">Ганбатын ХАЛИУН</h5>

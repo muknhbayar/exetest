@@ -9,10 +9,13 @@ const Aboutexe = () => {
 
       <div>
           <Image
-            src="/assets/img/banner.png"
+            src="/assets/img/olonlog-exe.jpg"
             className="w-full transition duration-300 ease-linear align-middle ml-4 "
             loading="lazy"
             alt="banner"
+            width={600}
+            height={360}
+            layout="fixed" 
           />
         </div>
 
